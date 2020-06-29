@@ -1,8 +1,6 @@
 const prefix = "$";
-const ytdl = require('ytdl-core');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const search = require('yt-search');
 
 client.once('ready', () => {
     console.log("Connected !")
