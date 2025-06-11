@@ -36,13 +36,6 @@ client.on('message', async message => {
     if(message.content.startsWith('$procrastination')) {
         message.channel.send('Voici un graphique détaillant les facteurs qui jouent sur votre procrastination !', {files: ['https://se-realiser.com/wp-content/uploads/2014/07/ProcrastinationProcGraph.png']});
     };
-    if(message.content.startsWith(`${prefix}video`)) {
-        message.channel.send('N\'oubliez pas de vous abonner haha !', {files : ['https://media.tenor.com/images/1d55655c71e6806d7b74a26cf0dcb57d/tenor.gif']});
-        message.channel.send('https://www.youtube.com/watch?v=3_fgW1t7Ufc');
-    };
-    if(message.content.startsWith('Rick')) {
-        message.reply("Tg toi t'es con, t'es moche et tu pus sale caca de merde qui pus du cul ! :poop: :face_with_symbols_over_mouth: :middle_finger:");
-    };
     if(message.content.startsWith(`${prefix}help`)) {
         message.channel.send('**Voici les différentes commandes possibles :**');
         message.channel.send('-  $imc poids(kg) taille(m)');
